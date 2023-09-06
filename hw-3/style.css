@@ -57,7 +57,7 @@ body {
 }
 
 .games {
-  background-image: url(/hw-3/img/games.jpg);
+  background-color: #000915;
 }
 
 .item-img {
@@ -93,6 +93,38 @@ body {
   line-height: 32px; /* 133.333% */
 }
 
+.timeyear {
+  background-color: #000915;
+}
+
+.timeyear__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 233px;
+  padding-bottom: 233px;
+}
+
+.timeyear__heading {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.timeyear__text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 177.778% */
+  width: 532px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 /* Адаптив планшет */
 @media (max-width: 1024px) {
   .header {
@@ -117,7 +149,7 @@ body {
 /* Адаптив мобильная версия */
 @media (max-width: 767px) {
   .header {
-    background-image: url(/hw-3/img/bg.jpg);
+    background-image: url(/hw-3/img/bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
