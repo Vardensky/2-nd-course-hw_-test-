@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background-image: url(/hw-3/img/bg.jpg);
+  background-image: url(/hw-4/img/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -79,7 +79,6 @@ body {
 .games__content-item {
   position: relative;
   max-width: 379px;
-  height: 300px;
 }
 
 .item-text {
@@ -104,6 +103,12 @@ body {
   align-items: center;
   padding-top: 233px;
   padding-bottom: 233px;
+}
+
+.vice_verca {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 136px;
 }
 
 .timeyear__heading {
@@ -164,7 +169,7 @@ body {
 /* Адаптив мобильная версия */
 @media (max-width: 767px) {
   .header {
-    background-image: url(/hw-3/img/bg-mobile.jpg);
+    background-image: url(/hw-4/img/bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -190,6 +195,11 @@ body {
   }
   .timeyear__content {
     padding-top: 178px;
+    padding-bottom: 0px;
+  }
+  .vice_verca {
+    padding-top: 136px;
+    padding-bottom: 90px;
   }
   .timeyear__heading {
     font-size: 32px;
