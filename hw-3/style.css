@@ -140,10 +140,25 @@ body {
   .header__top-h1 {
     text-align: center;
   }
+  .timeyear__content {
+    justify-content: center;
+  }
+  .timeyear__heading {
+    text-align: center;
+  }
+  .timeyear__text-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
   .games__content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+  .timeyear-img {
+    padding-top: 64px;
   }
 }
 /* Адаптив мобильная версия */
@@ -167,12 +182,36 @@ body {
     margin-bottom: 32px;
     text-align: center;
   }
+  .games__content {
+    padding-bottom: 0px;
+  }
   .item-text {
     top: 218px;
+  }
+  .timeyear__content {
+    padding-top: 178px;
+  }
+  .timeyear__heading {
+    font-size: 32px;
+  }
+  .timeyear__text {
+    width: 343px;
+    font-size: 14px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+    text-align: center;
+  }
+  .timeyear-img {
+    width: 344px;
   }
 }
 @media (min-width: 320px) and (max-width: 374px) {
   .item-text {
     top: 183px;
+  }
+  .timeyear-img {
+    width: 290px;
   }
 }/*# sourceMappingURL=style.css.map */
